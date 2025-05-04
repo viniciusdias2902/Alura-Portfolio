@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2C2525;
+    color: #FFF8F9;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+strong {
+    color: #fd6883;
+}
+
+#presentation {
+    margin: 10% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#presentation__content {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#presentation__content h1 {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+#presentation__content p {
+    font-size: 24px;
+}
+
+#presentation__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+#presentation__links a {
+    background-color: #fd6883;
+    color: #211c1c;
+    text-decoration: none;
+    font-weight: 600;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 16px;
+}
