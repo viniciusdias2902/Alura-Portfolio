@@ -2,6 +2,7 @@
     --primary-color: #fd6883;
     --foreground: #FFF8F9;
     --background: #2C2525;
+    --hover-color: #211c1c;
 }
 
 * {
@@ -83,7 +84,7 @@ strong {
 
 .presentation__links__card:hover {
     cursor: pointer;
-    background-color: var(--background);
+    background-color: var(--hover-color);
 }
 
 .presentation__links__card a {
