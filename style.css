@@ -58,6 +58,11 @@ strong {
     justify-content: center;
 }
 
+.presentation__links__card:hover {
+    cursor: pointer;
+    background-color: #191515;
+}
+
 .presentation__links__card a {
     color: #FFF8F9;
     text-decoration: none;
